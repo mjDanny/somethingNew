@@ -2,3 +2,31 @@
 body {
 margin-top :65px;
 }
+/*Настройка размера изображения под разные экраны*/
+/* Для всех экранов */
+   section h2 {
+    font-size: 2rem;
+    }
+   section div {
+    font-size: 1rem;
+    }
+
+   /* Для ширины 1024 пикселей и меньше */
+   @media screen and (max-width: 1024px) {
+    section h2 {
+     font-size: 2.2rem;
+     }
+    section div {
+     font-size: 1.2rem;
+     }
+   }
+
+   /* Для ширины 600 пикселей и меньше */
+   @media screen and (max-width: 600px) {
+    section h2 {
+     font-size: 2.5rem;
+     }
+    section div {
+     font-size: 1.5rem;
+     }
+   }
